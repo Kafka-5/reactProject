@@ -1,0 +1,54 @@
+.container {
+  width: 100%;
+}
+
+.heading {
+
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: #f5f0f0;
+}
+
+.quote {
+  font-size: 16px;
+  color: #016710;
+  background: #060606;
+  padding: 12px;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  border: 1px solid #e0e0e0;
+}
+
+.loading {
+  color: #025f2c;
+  font-style: italic;
+  margin-bottom: 12px;
+}
+
+.button {
+  padding: 8px 16px;
+  background: #027920;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-bottom: 16px;
+}
+
+.button:hover {
+  background: #02791f;
+}
+
+.switchRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 6px;
+  border-top: 1px solid #090909;
+}
+
+.switchRow label {
+  font-size: 14px;
+  color: #e9e8e8;
+}

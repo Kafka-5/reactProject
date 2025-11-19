@@ -1,0 +1,71 @@
+.container {
+  width: 100%;
+}
+
+.heading {
+  font-size: 18px;
+  font-weight: 600;
+  color: #f3f1f1;
+  margin-bottom: 12px;
+}
+
+.inputRow {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.inputField {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #cfcfcf;
+  border-radius: 6px;
+  font-size: 14px;
+  background: #050505;
+}
+
+.addButton {
+  padding: 8px 16px;
+  border-radius: 6px;
+  background: #036c2b;
+  color: white;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+}
+
+.addButton:hover {
+  background: #3b7bc0;
+}
+
+.searchBar {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #cfcfcf;
+  border-radius: 6px;
+  font-size: 14px;
+  background: #030303;
+  margin-bottom: 12px;
+}
+
+.taskList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.taskItem {
+  padding: 8px 0;
+  border-bottom: 1px solid #ececec;
+  cursor: pointer;
+  color: #444;
+}
+
+.taskItem:hover {
+  background: #f8f8f8;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #2e7d32;
+}

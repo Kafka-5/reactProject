@@ -1,0 +1,48 @@
+/* Whole dashboard background */
+.dashboard {
+  font-weight: 200;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-overflow: ellipsis;
+  min-height: 100vh;
+  width: 100%;
+  background: #89cf92;
+  padding: 150px;
+  font-family: "Inter", 'Times New Roman', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Title */
+.title {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  color: #0a0000;
+}
+
+/* Grid layout for cards */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+/* Each widget card */
+.card {
+  min-height: 260px;
+  background: #080808;
+  border: 1px solid #efeeee;
+  border-radius: 10px;
+  padding: 40px;
+}
+
+/* Placeholder for future widgets */
+.placeholder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #090909;
+  font-size: 14px;
+}
+
